@@ -1,11 +1,13 @@
+/* acá faltan datos de comienzo del archivo, también hay que ajustar el indentado */
+
 *{
     padding: 0px;
 }
 #cabecera {
 border-width: 0px;
 background-color: rgb(189, 221, 178);
-width:1080;
-height: 920xp;
+width:1080; /* 1080 que? centímetros? */
+height: 920xp; /* windows xp. más allá del chiste de que está mal escrita la unidad de medida, no recomendamos que utilicen medidas fijas, sino que el tamaño de las cosas se den a través del contenido, o sea, el ancho y alto de los elementos + los gaps + paddings */
 }
 
 .flex-container{
@@ -51,7 +53,7 @@ footer{
 }
 
 ul{
-    font-family: "Funnel Display", sans-serif;
+    font-family: "Funnel Display", sans-serif; /* si esta va a ser la tipo principal de lectura te va a convenir setearla desde body o el selector universal para no ir repitiendo a cada rato lo mismo */
     font-style: italic;
     color:antiquewhite
 }
