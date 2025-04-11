@@ -22,14 +22,15 @@ height: 920xp;
     color: antiquewhite;
     font-family: "Funnel Display", sans-serif;
     text-align: center;
+    display: flex;
+    justify-items: left;
 }
-
-
-
 
 p {
     background-color: rgb(189, 221, 178);
     padding: 10px 20px;
+    font-family: "Funnel Display", sans-serif;
+    text-align: right;
 }
 
 h1 {
@@ -38,21 +39,43 @@ h1 {
     font-style: light;
     color:rgb(1, 45, 70);
     text-align: center;
+
 }
 
+h2{
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(1, 45, 70);
+    text-align: center;
+}
+
+h3 {
+    font-family: "Funnel Display", sans-serif;
+    font-style: normal;
+    color: antiquewhite;
+}
+
+h6{
+    font-family: "Funnel Display", sans-serif;
+    font-style: normal;
+    color: rgb(1, 45, 70);
+    text-align: center;
+}
 
 section{
     background-color: rgb(1, 45, 70);
+    border: 1px;
+    border-left: 540px;
 }
 
 
 footer{
     background-color: rgb(189, 221, 178);
+    height: 100px;
 }
 
 ul{
     font-family: "Funnel Display", sans-serif;
-    font-style: italic;
+    font-style: normal;
     color:antiquewhite
 }
 li{
