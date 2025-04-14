@@ -15,12 +15,12 @@ height: 10xp;
 
 .container{
     background-color:rgb(1, 45, 70);
-    padding: 0 20px;
+    padding: 20px 20px;
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     width: 480px;
-    border-radius: 40px 0;
+    border-radius: 0 70px 70px 0;
 }
 
 .cajas{
@@ -37,11 +37,11 @@ height: 10xp;
 
 p {
     background-color: rgb(189, 221, 178);
-    padding: 20px 20px;
+    padding: 5px 20px 20px 20px;
     font-family: "Funnel Display", sans-serif;
     text-align: left;
     width: 480px;
-    height: 103px;
+    height: 108px;
     font-size: 17px;
 }
 
@@ -59,7 +59,11 @@ h2{
     color: rgb(1, 45, 70);
     background-color: rgb(189, 221, 178);
     text-align: center;
-    padding: 8px;
+    padding: 15px 8px 2px 0;
+}
+
+#segundo-titulo{
+    padding: 15px 8px 15px 2px;
 }
 
 h3 {
@@ -79,10 +83,10 @@ h6{
 .container-generales{
     background-color: rgb(1, 45, 70);
     width: auto;
-    padding: 0 20px 20px 10px;
+    padding: 0 10px 0px 40px;
     display: flex;
     flex-direction: column;
-    border-radius: 60px 0;
+    border-radius: 90px 0 0 90px;
 }
 
 .contenido-general{
@@ -92,12 +96,6 @@ h6{
     text-align: left;
     flex-direction: column;
     
-}
-
-footer{
-    background-color: rgb(189, 221, 178);
-    height: 50px;
-
 }
 
 ul{
@@ -114,10 +112,17 @@ li{
 
 section{
     display: flex;
-    column-gap: 15px;
-    padding: 20px 0px 10px 5px;
+    background-color: rgb(189, 221, 178);
 }
 
 nav{
     background-color: rgb(189, 221, 178);
+}
+
+
+
+footer{
+    background-color: rgb(189, 221, 178);
+    height: 50px;
+
 }
