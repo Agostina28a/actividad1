@@ -1,56 +1,70 @@
 *{
     padding: 0px;
+    margin: 0px;
 }
+
+
 #cabecera {
+padding: 40px 20px 40px 20px;
 border-width: 0px;
 background-color: rgb(189, 221, 178);
 width:1080;
-height: 920xp;
+height: 10xp;
 }
 
-.flex-container{
-    background-color: rgb(189, 221, 178);
-    width: auto;
-    height: 200px;
+
+.container{
+    background-color:rgb(1, 45, 70);
+    padding: 0 20px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
+    width: 480px;
+    border-radius: 40px 0;
 }
 
-.flex-items{
-    background-color: rgb(1, 45, 70);
-    padding: 5px;
-    color: antiquewhite;
+.cajas{
     font-family: "Funnel Display", sans-serif;
-    text-align: center;
-    display: flex;
-    justify-items: left;
+    color: antiquewhite;
+    margin: 2px;
+    padding: 5px;
+}
+
+.generales{
+    background-color: blueviolet;
+    padding: 0 20px;
 }
 
 p {
     background-color: rgb(189, 221, 178);
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-family: "Funnel Display", sans-serif;
-    text-align: right;
+    text-align: left;
+    width: 480px;
+    height: 103px;
+    font-size: 17px;
 }
 
 h1 {
     font-family: "Righteous", sans-serif;
-    font-weight: 400px;
-    font-style: light;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 70px;
     color:rgb(1, 45, 70);
-    text-align: center;
 
 }
 
 h2{
     font-family: "Funnel Display", sans-serif;
     color: rgb(1, 45, 70);
+    background-color: rgb(189, 221, 178);
     text-align: center;
+    padding: 8px;
 }
 
 h3 {
     font-family: "Funnel Display", sans-serif;
-    font-style: normal;
+    font-style: italic;
     color: antiquewhite;
 }
 
@@ -59,26 +73,51 @@ h6{
     font-style: normal;
     color: rgb(1, 45, 70);
     text-align: center;
+    padding: 15px;
 }
 
-section{
+.container-generales{
     background-color: rgb(1, 45, 70);
-    border: 1px;
-    border-left: 540px;
+    width: auto;
+    padding: 0 20px 20px 10px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 60px 0;
 }
 
+.contenido-general{
+    display: flex;
+    padding: 10px;
+    margin: 15px;
+    text-align: left;
+    flex-direction: column;
+    
+}
 
 footer{
     background-color: rgb(189, 221, 178);
-    height: 100px;
+    height: 50px;
+
 }
 
 ul{
     font-family: "Funnel Display", sans-serif;
     font-style: normal;
-    color:antiquewhite
+    color:antiquewhite;
+    font-size: 17px;
+    
 }
 li{
     font-family: "Funnel Display", sans-serif;
     color: antiquewhite;
+}
+
+section{
+    display: flex;
+    column-gap: 15px;
+    padding: 20px 0px 10px 5px;
+}
+
+nav{
+    background-color: rgb(189, 221, 178);
 }
