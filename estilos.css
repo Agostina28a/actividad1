@@ -1,18 +1,44 @@
+@charset "utf-8"
+    /* CSS Document */
+
+    /*generales*/
 *{
     padding: 0px;
     margin: 0px;
 }
 
-
-#cabecera {
-padding: 40px 20px 40px 20px;
-border-width: 0px;
-background-color: rgb(189, 221, 178);
-width:1080;
-height: 10xp;
+body{
+    width: 100%;
+    background-color: rgb(189, 221, 178);
+    margin: 0px;
 }
 
+    /*header*/
+#cabecera {
+    padding: 40px 316px 40px 20px;
+    display: flex;
+    justify-content: center;
+}
 
+h1 {
+    font-family: "Righteous", sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 90px;
+    color:rgb(1, 45, 70);
+    margin: 1px;
+}
+
+h2{
+    font-family: "Funnel Display", sans-serif;
+    color: rgb(1, 45, 70);
+    text-align: center;
+    padding: 15px 8px 2px 0;
+    margin: 0px;
+    font-size: 28px;
+}
+
+    /*nav*/
 .container{
     background-color:rgb(1, 45, 70);
     padding: 20px 20px;
@@ -20,73 +46,50 @@ height: 10xp;
     flex-wrap: wrap;
     flex-direction: column;
     width: 480px;
-    border-radius: 0 70px 70px 0;
+    border-radius: 70px 70px 70px 0;
+    font-size: 17px;
 }
 
 .cajas{
     font-family: "Funnel Display", sans-serif;
     color: antiquewhite;
-    margin: 2px;
     padding: 5px;
+    list-style: none;
+    font-size: 20px;
 }
 
-.generales{
+    /*contenido-cv*/
+    /*izquierda*/
+/*.generales{
     background-color: blueviolet;
     padding: 0 20px;
+}*/
+
+section{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0 20px 0;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 p {
-    background-color: rgb(189, 221, 178);
-    padding: 5px 20px 20px 20px;
+    padding: 5px 20px 24px;
+    margin: 5px;
+    max-width: 481px;
     font-family: "Funnel Display", sans-serif;
     text-align: left;
-    width: 480px;
-    height: 108px;
-    font-size: 17px;
+    font-size: 20px;
 }
 
-h1 {
-    font-family: "Righteous", sans-serif;
-    font-weight: normal;
-    font-style: normal;
-    font-size: 70px;
-    color:rgb(1, 45, 70);
-
-}
-
-h2{
-    font-family: "Funnel Display", sans-serif;
-    color: rgb(1, 45, 70);
-    background-color: rgb(189, 221, 178);
-    text-align: center;
-    padding: 15px 8px 2px 0;
-}
-
-#segundo-titulo{
-    padding: 15px 8px 15px 2px;
-}
-
-h3 {
-    font-family: "Funnel Display", sans-serif;
-    font-style: italic;
-    color: antiquewhite;
-}
-
-h6{
-    font-family: "Funnel Display", sans-serif;
-    font-style: normal;
-    color: rgb(1, 45, 70);
-    text-align: center;
-    padding: 15px;
-}
-
+    /*derecha*/
 .container-generales{
     background-color: rgb(1, 45, 70);
-    width: auto;
-    padding: 0 10px 0px 40px;
+    max-width: 850px;
+    padding: 0 40px 0px 40px;
     display: flex;
     flex-direction: column;
-    border-radius: 90px 0 0 90px;
+    border-radius: 90px 90px 0 90px;
 }
 
 .contenido-general{
@@ -95,34 +98,71 @@ h6{
     margin: 15px;
     text-align: left;
     flex-direction: column;
+    font-size: 24px;
     
+}
+
+h3 {
+    font-family: "Funnel Display", sans-serif;
+    font-style: italic;
+    color: antiquewhite;
+    margin: 10px;
 }
 
 ul{
     font-family: "Funnel Display", sans-serif;
     font-style: normal;
     color:antiquewhite;
-    font-size: 17px;
-    
+    font-size: 22px;
+    margin: 0px;
 }
+
 li{
     font-family: "Funnel Display", sans-serif;
     color: antiquewhite;
 }
 
-section{
+    /*article-mis trabajos*/
+#segundo-titulo{
+    padding: 15px 8px 15px 2px;
+}
+
+.tps{
     display: flex;
-    background-color: rgb(189, 221, 178);
+    justify-content: center;
+    gap: 14px;
+    padding-top: 12px;
+    padding-bottom: 22px;
+}
+
+    /*footer-instagram-link*/
+h6{
+    font-family: "Funnel Display", sans-serif;
+    font-size: 17px;
+    color: antiquewhite;
+    padding: 20px 0 20px 0;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
 }
 
 nav{
-    background-color: rgb(189, 221, 178);
+    display: flex;
+    justify-content: center;
+    padding: 10px 920px 10px 10px;
 }
 
-
+a:link{
+    color:antiquewhite;
+    text-decoration: none;
+}
 
 footer{
-    background-color: rgb(189, 221, 178);
-    height: 50px;
+    background-color: rgb(1, 45, 70);
+    height: 65px;
 
+}
+
+a:visited{
+    color: antiquewhite;
 }
